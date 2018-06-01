@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Educación</title>
+    </head>
+    <body>
+        <header>
+            <svg>
+                <image xlink:href="../img/logo.svg" width="500px" height="400px"/>
+            </svg>
+            <h1>Currículum Vitae</h1>
+        </header>
+        <h2><i>Datos personales</i></h2>
+
+        <h3><u>Nombre y Apellido:</u> Camila Cuñer</h3>
+        <h3><u>Fecha de nacimiento:</u> 22/06/1994</h3>
+        <h3><u>Lugar de nacimiento:</u> Córdoba - Argentina</h3>
+        <br/>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="educacion.html">Educación</a></li>
+            <li><a href="experiencia.html">Experiencia</a></li>
+        </ul>
+        <h2><i>Educación</i></h2>
+        <table border="1" cellpadding="10" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Curso</th>
+                    <th>Año</th>
+                    <th>Institución</th>
+                    <th>Lugar</th>
+                    <th>¿Culminó?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Economía</td>
+                    <td>2011</td>
+                    <td>Gral. José María Paz</td>
+                    <td>Córdoba</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td>Fundamentos Android</td>
+                    <td>2017</td>
+                    <td>Next University</td>
+                    <td>Córdoba</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td>Desarrollo Android</td>
+                    <td>2018</td>
+                    <td>Next University</td>
+                    <td>Córdoba</td>
+                    <td>Sí</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2><i>Agregar estudios</i></h2>
+        <form>
+            <p>
+                <label for="year">Año: </label>
+                <select name="year">
+                    <option>2010</option>
+                    <option>2011</option>
+                    <option>2012</option>
+                    <option>2013</option>
+                    <option>2014</option>
+                    <option>2015</option>
+                    <option>2016</option>
+                    <option>2017</option>
+                    <option>2018</option>
+                </select>
+            </p>
+            <p>
+                <label for="institution">Institución: </label>
+                <input name="institution" type="text" placeholder="Nombre de Institución" required/>
+            </p>
+            <p>
+                <label for="place">Lugar: </label>
+                <br/>
+                <textarea name="place" cols="30" rows="4" id=""></textarea>
+            </p>
+            <input type="submit" value="Enviar"/>
+        </form>
+        <br/>
+        <footer>
+            <strong><i>Información de Contacto</i></strong>
+            <ul>
+                <li>Correo Electrónico: camicba1@gmail.com</li>
+                <li>Teléfono: (111)-222-3333</li>
+            </ul>
+        </footer>
+    </body>
+</html>
